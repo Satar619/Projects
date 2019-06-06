@@ -1,2 +1,5 @@
 # Projects
-This Repo is for all of my projects during my studying 
+##### This Repo is for all of my projects during my studying.
+---
+
+## List of Projects!
