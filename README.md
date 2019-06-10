@@ -3,8 +3,10 @@
 ---
 
 ## List of Projects!
-| Week | Topic | Read | Homework |
-| ---- | ----- | ---- | -------- |
-| 1. | React Components | [JSX](https://reactjs.org/docs/introducing-jsx.html), [Elements](https://reactjs.org/docs/rendering-elements.html), [Components and Props](https://reactjs.org/docs/components-and-props.html) | [Week 1 Homework](https://github.com/HackYourFuture/React/blob/master/documentation/homework/W1-homework.md) |
-| 2. | State and Lifecycle | [Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html), [Events](https://reactjs.org/docs/handling-events.html), [Conditional Rendering](https://reactjs.org/docs/conditional-rendering.html), [List and Keys](https://reactjs.org/docs/lists-and-keys.html) | [Week 2 Homework](https://github.com/HackYourFuture/React/blob/master/documentation/homework/W2-homework.md) |
-| 3. | Forms and Managing State | [Forms](https://reactjs.org/docs/forms.html), [Manage State](https://reactjs.org/docs/lifting-state-up.html), [Thinking in React](https://reactjs.org/docs/thinking-in-react.html) | [Week 3 Homework](https://github.com/HackYourFuture/React/blob/master/documentation/homework/W3-homework.md) |
+| No | Project | Comment |
+| ---- | ----- | ---- |
+| 1. | [CodeDoor](https://github.com/Satar619/Projects/tree/master/CodeDoor-front-end-challenge-03.2019) | The Banana Challenge was about the beginning of my CodeDoor challenge that I was able to pass it in just one week. |
+| 2. | [Udacity, Portfolio Site ](https://github.com/Satar619/Udacity_Projects/tree/master/Portfolio%20%20Site) | - |
+| 2. | [Udacity Memory Game](https://github.com/Satar619/Udacity_Projects/tree/master/Memory-Game) |  |
+
+---
