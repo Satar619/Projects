@@ -1,12 +1,9 @@
 [submodule "CookieApp"]
 	path = CookieApp
 	url = https://github.com/Satar619/CookieApp.git
-[submodule "Portfolio"]
-	path = Portfolio
+[submodule "Udacity_Projects"]
+	path = Udacity_Projects
 	url = https://github.com/Satar619/Udacity_Projects.git
 [submodule "Portfolio-Site"]
 	path = Portfolio-Site
 	url = https://github.com/Satar619/satar619.github.io.git
-[submodule "Udacity"]
-	path = Udacity
-	url = https://github.com/Satar619/Udacity_Projects.git
