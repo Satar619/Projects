@@ -10,3 +10,6 @@
 [submodule "Banana"]
 	path = Banana
 	url = https://github.com/CodeDoorCC/front-end-challenge-Satar619.git
+[submodule "Udacity-Projects"]
+	path = Udacity-Projects
+	url = https://github.com/Satar619/Udacity_Projects.git
