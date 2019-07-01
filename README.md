@@ -14,4 +14,6 @@
 ---
 
 ## Social media:
-- [***Linkdin***](https://www.linkedin.com/in/satarsy/)
+- [](https://www.linkedin.com/in/satarsy/)
+- [![***Linkdin***]]
+- [![Twitter Follow](https://img.shields.io/twitter/follow/satarsy.svg?style=social)](https://twitter.com/satarsy) [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/SatarSy)
