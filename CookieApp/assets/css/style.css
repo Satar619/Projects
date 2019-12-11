@@ -1,0 +1,506 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* ============================================== */
+/* Style Guide */
+/* ============================================== */
+
+:root {
+  --primary-background: #6c6e8c;
+  --secondary-background: #f6f6f9;
+  --primary-font: #0ff2b2;
+  --secondary-font: #05f283;
+  --paragraph-family: Arial, Helvetica, sans-serif;
+  --secondary-family: 'Times New Roman', Times, serif;
+}
+
+hr {
+  width: 100px;
+  height: 5px;
+  background-color: var(--primary-font);
+  border: none;
+  margin: 1.5em auto;
+}
+
+h3,
+h4 {
+  font-size: 2em;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 0;
+  color: var(--primary-font);
+}
+
+h3 {
+  text-align: center;
+  color: var(--primary-background);
+  margin: 1.5em;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* ============================================== */
+/* Header Section */
+/* ============================================== */
+
+.nav-container {
+  margin: 0%;
+  padding: 0%;
+  background-color: var(--primary-background);
+  height: 80px;
+}
+
+nav .ico {
+  display: block;
+  float: left;
+  padding: 7px 200px 0 350px;
+}
+
+.ico img {
+  height: 60px;
+}
+
+.ico,
+.nav-ul {
+  display: flex;
+  margin: 0%;
+  padding: 0%;
+}
+
+nav .nav-ul li {
+  cursor: pointer;
+  line-height: 70px;
+  transition: all 0.5s ease-out;
+}
+
+nav .nav-ul a:hover {
+  color: rgb(0, 0, 0);
+}
+
+nav .item a {
+  margin: 40px 30px 20px 30px;
+  color: var(--secondary-background);
+}
+
+nav .item:hover {
+  transform: skew(-10deg);
+  background: var(--secondary-font);
+}
+
+/* ============================================== */
+/* Heroes Section */
+/* ============================================== */
+
+#hero {
+  height: 92vh;
+  background: linear-gradient(to bottom,
+      rgba(62, 60, 88, 0.247) 0,
+      rgba(62, 60, 88, 0.247) 100%),
+    url('https://images-gmi-pmc.edge-generalmills.com/087d17eb-500e-4b26-abd1-4f9ffa96a2c6.jpg');
+  margin: 0%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.cookie-land {
+  margin: 0%;
+  padding: 0%;
+  font-style: italic;
+  font-size: 110px;
+  text-align: center;
+  padding-top: 280px;
+  text-shadow: -2px 4px #f6f6f9;
+}
+
+/* ============================================== */
+/* Cookie Section */
+/* ============================================== */
+
+/* Search Bar */
+
+#searchbar {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 1.5em;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: center;
+}
+
+/* Container */
+
+#cookie {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.slider-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Card */
+
+.card {
+  background-color: var(--primary-background);
+  width: 30%;
+  height: 600px;
+  margin: 1.66%;
+  box-sizing: border-box;
+  display: none;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  height: 50%;
+}
+
+.card .content {
+  padding: 10px 20px;
+}
+
+.content p {
+  font-family: var(--paragraph-family);
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+/* Buttons */
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.show-more {
+  margin-right: 10px;
+  padding: 20px 60px;
+  border: none;
+  outline: none;
+  background-color: var(--primary-font);
+  border: 3px solid transparent;
+  color: #fff;
+  font-family: var(--secondary-family);
+  font-size: 1.5em;
+  font-weight: 700;
+  font-style: italic;
+  border-radius: 10px;
+}
+
+.show-more:hover {
+  cursor: pointer;
+  border: 3px solid var(--primary-font);
+  background-color: white;
+  color: var(--primary-background);
+}
+
+.show-less {
+  margin-left: 10px;
+  padding: 20px 60px;
+  border: none;
+  outline: none;
+  background-color: white;
+  border: 3px solid var(--primary-font);
+  color: var(--primary-background);
+  font-family: var(--secondary-family);
+  font-size: 1.5em;
+  font-weight: 700;
+  font-style: italic;
+  border-radius: 10px;
+}
+
+.show-less:hover {
+  cursor: pointer;
+  background-color: var(--primary-font);
+  color: #fff;
+}
+
+/* Display */
+
+.display {
+  display: block;
+}
+
+/* Modal Popup */
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* ============================================== */
+/* About Section */
+/* ============================================== */
+
+/* Container */
+
+#about {
+  height: 100vh;
+  background-color: var(--secondary-background);
+}
+
+.about-container {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+/* Font */
+
+.about-container h2 {
+  font-size: 4em;
+  font-style: italic;
+  text-transform: uppercase;
+  color: var(--primary-font);
+  padding-bottom: 100px;
+}
+
+.about-container p {
+  font-size: 1.5em;
+  line-height: 2em;
+}
+
+.quote-caption {
+  padding-top: 50px;
+  color: var(--primary-background);
+  font-style: italic;
+}
+
+/* ============================================== */
+/* Contributors Section */
+/* ============================================== */
+
+#contributors-container {
+  /* display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+  justify-content: space-around; */
+  max-width: 80%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.contributors {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary-background);
+  width: 25%;
+  display: none;
+}
+
+.contributors img {
+  width: 100%;
+}
+
+.contributors-info {
+  padding: 0 10%;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+.contributors-info p {
+  font-family: var(--paragraph-family);
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgb(44, 43, 43);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}m;
+}
+/* Buttons */
+
+.con-button{
+  background-color: var(--secondary-font);
+  border: 0;
+  font-size: 32px;
+  height: 90px;
+  cursor: pointer;
+  }
+  .previous{
+    position: absolute;
+    margin-left: 14%;
+    margin-top: 200px;
+  }
+  .next{
+    z-index: 1;
+    margin-left: 86%;
+    position: absolute;
+  }
+
+
+/* ============================================== */
+/* Join Us Section */
+/* ============================================== */
+
+/* Container */
+
+#join-us {
+  background-color: var(--primary-background);
+  height: calc(100vh - 80px);
+  text-align: center;
+  position: relative;
+}
+
+.join-container {
+  color: #ffffff;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Font */
+
+.join-container h2 {
+  font-size: 4em;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.join-container p {
+  font-size: 1.5em;
+  line-height: 2em;
+}
+
+/* Buttons */
+
+.join-buttons {
+  margin: 0;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+}
+
+.go {
+  margin-right: 10px;
+  padding: 20px 70px;
+  border: none;
+  outline: none;
+  background-color: var(--primary-font);
+  border: 3px solid transparent;
+  color: #fff;
+  font-family: var(--secondary-family);
+  font-size: 1.5em;
+  font-weight: 700;
+  font-style: italic;
+  border-radius: 10px;
+}
+
+.go:hover {
+  cursor: pointer;
+  background-color: white;
+  color: var(--primary-background);
+}
+
+.more-info {
+  margin-left: 10px;
+  padding: 20px 70px;
+  border: none;
+  outline: none;
+  background-color: white;
+  border: 3px solid transparent;
+  color: var(--primary-background);
+  font-family: var(--secondary-family);
+  font-size: 1.5em;
+  font-weight: 700;
+  font-style: italic;
+  border-radius: 10px;
+}
+
+.more-info:hover {
+  cursor: pointer;
+  background-color: var(--primary-font);
+  color: #fff;
+}
