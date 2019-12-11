@@ -13,3 +13,6 @@
 [submodule "Udacity-Projects"]
 	path = Udacity-Projects
 	url = https://github.com/Satar619/Udacity_Projects.git
+[submodule "Udacity_Projects"]
+	path = Udacity_Projects
+	url = git@github.com:SatarShirzai/Udacity_Projects.git
